@@ -2,7 +2,7 @@
 ## Membres de l'équipe
 - `itnitiateur`: OKRY Marie-grace
 - `contributeur-1`: DIALLO Leïla
-- `contributeur-2`: SAIDI Florine 
+- `contributeur-2`: SAIDI Florine
 - `contributeur-3`: COUTTE Bastien
 
 ## Fork urls

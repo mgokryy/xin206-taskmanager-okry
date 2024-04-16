@@ -1,9 +1,9 @@
-def charger_taches():
+def charger_tache():
     with open("tache.txt", "r") as file:
         return [line.strip() for line in file.readlines()]
 
-def sauvegarder_taches(taches):
-    with open("taches.txt", "w") as file:
+def sauvegarder_tache(taches):
+    with open("tache.txt", "w") as file:
         for tache in taches:
             file.write(tache + "\n")
 
@@ -13,7 +13,7 @@ def ajouter_tache(taches):
     print("Tâche ajoutée avec succès.")
 
 def supprimer_tache(taches):
-    afficher_taches(taches)
+    afficher_tache(taches)
     index = int(input("Entrez l'index de la tâche à supprimer : ")) - 1
     if 0 <= index < len(taches):
         taches.pop(index)
@@ -21,7 +21,7 @@ def supprimer_tache(taches):
     else:
         print("Index invalide.")
 
-def afficher_taches(taches):
+def afficher_tache(taches):
     if not taches:
         print("\nAucune tâche.")
     else:
