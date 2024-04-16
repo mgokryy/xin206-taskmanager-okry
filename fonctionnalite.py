@@ -1,9 +1,9 @@
 def charger_taches():
-    with open("taches.txt", "r") as file:
+    with open("tache.txt", "r") as file:
         return [line.strip() for line in file.readlines()]
 
 def sauvegarder_taches(taches):
-    with open("taches.txt", "w") as file:
+    with open("tache.txt", "w") as file:
         for tache in taches:
             file.write(tache + "\n")
 
@@ -38,4 +38,3 @@ def marquer_comme_terminee(taches):
     else:
         print("Index invalide.")
 
-        

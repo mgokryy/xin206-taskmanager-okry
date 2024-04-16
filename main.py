@@ -29,3 +29,4 @@ if __name__ == "__main__":
             break
         else:
             print("Choix invalide. Veuillez réessayer.")
+
