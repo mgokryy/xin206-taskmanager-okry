@@ -1,4 +1,4 @@
-def charger_tache():
+def charger_taches():
     with open("tache.txt", "r") as file:
         return [line.strip() for line in file.readlines()]
 
@@ -28,3 +28,4 @@ def afficher_tache(taches):
         print("\nListe des tâches :")
         for i, tache in enumerate(taches, start=1):
             print(f"{i}. {tache}")
+
