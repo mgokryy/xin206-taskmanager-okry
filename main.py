@@ -1,7 +1,7 @@
 from fonctionnalite import *
 
 def afficher_menu(taches):
-    afficher_taches(taches)
+    afficher_tache(taches)
     print("\nMenu:")
     print("1. Ajouter une tâche")
     print("2. Supprimer une tâche")
@@ -9,7 +9,7 @@ def afficher_menu(taches):
     print("4. Quitter")
 
 if __name__ == "__main__":
-    taches = charger_taches()
+    taches = charger_tache()
 
     while True:
         afficher_menu(taches)
@@ -22,7 +22,7 @@ if __name__ == "__main__":
         elif choix == "3":
             marquer_comme_terminee(taches)
         elif choix == "4":
-            sauvegarder_taches(taches)
+            sauvegarder_tache(taches)
             print("Sortie du gestionnaire de tâches.")
             break
         else:
