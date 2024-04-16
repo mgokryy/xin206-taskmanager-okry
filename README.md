@@ -7,5 +7,5 @@
 
 ## Fork urls
 - `contributeur-1`: [xin206-taskmanager-DIALLO-Leïla]
-- `contributeur-2`: [xin206-taskmanager-SAIDI-Florin]
-- `contributeur-3`: [xin206-taskmanager-COUTTE-Bastien]
+- `contributeur-2`: [xin206-taskmanager-SAIDI-Florine]
+- `contributeur-3`: [xin206-taskmanager-COUTTE-Bastien] (https://github.com/Nash920/xin206-taskmanager-COUTTE.git)
