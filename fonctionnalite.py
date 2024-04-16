@@ -14,6 +14,7 @@ def ajouter_tache(taches):
 
 def supprimer_tache(taches):
     afficher_tache(taches)
+
     try:
         index = int(input("Entrez l'index de la tâche à supprimer : ")) - 1
         if 0 <= index < len(taches):
@@ -22,8 +23,9 @@ def supprimer_tache(taches):
         else:
             print("Index invalide.")
     except ValueError:
-        print("Index invalide.")
+      print("Index invalide.")
 
+   
 def afficher_tache(taches):
     if not taches:
         print("\nAucune tâche.")

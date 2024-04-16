@@ -8,7 +8,7 @@ def afficher_menu():
     print("4. Quitter")
 
 if __name__ == "__main__":
-    taches = charger_taches()
+    taches = charger_tache()
 
     while True:
         afficher_menu()
@@ -19,9 +19,9 @@ if __name__ == "__main__":
         elif choix == "2":
             supprimer_tache(taches)
         elif choix == "3":
-            afficher_taches(taches)
+            afficher_tache(taches)
         elif choix == "4":
-            sauvegarder_taches(taches)
+            sauvegarder_tache(taches)
             print("Sortie du gestionnaire de tâches.")
             break
         else:
