@@ -28,3 +28,4 @@ def afficher_taches(taches):
         print("\nListe des tâches :")
         for i, tache in enumerate(taches, start=1):
             print(f"{i}. {tache}")
+
